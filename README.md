@@ -1,5 +1,8 @@
 AndroidDevTools
 ===============
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inferjay/AndroidDevTools?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Android Dev Tools官网地址：[www.androiddevtools.cn](http://www.androiddevtools.cn)**
 
 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
@@ -9,37 +12,75 @@ AndroidDevTools
 >如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
 
 
-# Android Tools
+#Android Tools
 ---
 
-####ADT Bundle
-ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
+####Android SDK在线更新镜像服务器
+	
+1. 大连东软信息学院镜像服务器地址: 
 
-| 版本号  | Windows                |      Mac OSX       |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
-| 23.0.2 | [32位][adtb-23-0-2-win-32] [64位][adtb-23-0-2-win-64] |[64位][adtb-23-0-2-mac-64] | [32位][adtb-23-0-2-linux-32] [64位][adtb-23-0-2-linux-64] |
-| 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
+	`http://mirrors.neusoft.edu.cn` 端口：80
 
-[adtb-23-0-2-win-32]:http://pan.baidu.com/s/1dDGM8oD
-[adtb-23-0-2-win-64]:http://pan.baidu.com/s/1mgn2dOs
+2. 北京化工大学镜像服务器地址: 
+   	
+   * IPv4: `http://ubuntu.buct.edu.cn/` 端口：80
+   
+   * IPv4: `http://ubuntu.buct.cn/`   端口：80
+   
+   * IPv6: `http://ubuntu.buct6.edu.cn/`  端口：80
+	
+3. 上海GDG镜像服务器地址:
 
-[adtb-23-0-2-mac-64]:http://pan.baidu.com/s/1o6OBIHG
+	`http://sdk.gdgshanghai.com `  端口：8000
 
-[adtb-23-0-2-linux-32]:http://pan.baidu.com/s/1GmIsQ
-[adtb-23-0-2-linux-64]:http://pan.baidu.com/s/1EQMT4
+4. 中国科学院开源协会镜像站地址:
 
-[adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
-[adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
+   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
 
-[adtb-23-mac-64]:http://pan.baidu.com/s/1hqvHkry
+   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
 
-[adtb-23-linux-32]:http://pan.baidu.com/s/1mgoh41q
-[adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
+   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
 
+**使用方法**：
+	
+1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
+
+2. 在『**Android SDK Manager - Settings**』窗口中，在『**HTTP Proxy Server」和「HTTP Proxy Port**』输入框内填入上面镜像服务器地址(**不包含http://**，如下图)和端口，并且选中『**Force https://... sources to be fetched using http://...**』复选框。设置完成后单击『**Close**』按钮关闭『**Android SDK Manager - Settings**』窗口返回到主界面；
+
+3. 依次选择『**Packages**』、『**Reload**』。
+
+	<img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%" alt="SDK Manager Proxy Settings">
 
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.2 Preview 3 | [下载][1.2-p3-win] | [下载][1.2-p3-mac] | [下载][1.2-p3-linux] |
+|  1.2 Preview 2 | [下载][1.2-p2-win] | [下载][1.2-p2-mac] | [下载][1.2-p2-linux] |
+|  1.2 Preview 1 | [下载][1.2-p1-win] | [下载][1.2-p1-mac] | [下载][1.2-p1-linux] |
+|  1.1正式版 | [下载][1.1-win] | [下载][1.1-mac] | [下载][1.1-linux] |
+|  1.1 RC1 | [下载][1.1rc1-win] | [下载][1.1rc1-mac] | [下载][1.1rc1-linux] |
+|  1.1 Beta 4 | [下载][1.1-b4-win] | [下载][1.1-b4-mac] | [下载][1.1-b4-linux] |
+|  1.1 Beta 3 | [下载][1.1-b3-win] | [下载][1.1-b3-mac] | [下载][1.1-b3-linux] |
+|  1.1 Beta 2 | [下载][1.1-b2-win] | [下载][1.1-b2-mac] | [下载][1.1-b2-linux] |
+|  1.1 Beta 1 | [下载][1.1-b1-win] | [下载][1.1-b1-mac] | [下载][1.1-b1-linux] |
+|  1.1 Preview 2 | [下载][1.1-p2-win] | [下载][1.1-p2-mac] | [下载][1.1-p2-linux] |
+|  1.1 Preview 1 | [下载][1.1-p1-win] | [下载][1.1-p1-mac] | [下载][1.1-p1-linux] |
+|  1.0.2 | [下载][1.0.2-win] | [下载][1.0.2-mac] | [下载][1.0.2-linux] |
+|  1.0.1 | [下载][1.0.1-win] | [下载][1.0.1-mac] | [下载][1.0.1-linux] |
+|  1.0正式版 | [下载][1.0-win] | [下载][1.0-mac] | [下载][1.0-linux] |
+|  1.0 RC4 | [下载][1.0rc4-win] | [下载][1.0rc4-mac] | [下载][1.0rc4-linux] |
+|  1.0 RC2 | [下载][1.0rc2-win] | [下载][1.0rc2-mac] | [下载][1.0rc2-linux] |
+|  1.0 RC1 | [下载][1.0rc1-win] | [下载][1.0rc1-mac] | [下载][1.0rc1-linux] |
+|  0.9.3 | [下载][0.9.3-win] | [下载][0.9.3-mac] | [下载][0.9.3-linux] |
+|  0.9.2 | [下载][0.9.2-win] | [下载][0.9.2-mac] | [下载][0.9.2-linux] |
+|  0.9.1 | [下载][0.9.1-win] | [下载][0.9.1-mac] | [下载][0.9.1-linux] |
+|  0.9.0 | [下载][0.9.0-win] | [下载][0.9.0-mac] | [下载][0.9.0-linux] |
+|  0.8.14 | [下载][0.8.14-win] | [下载][0.8.14-mac] | [下载][0.8.14-linux] |
+|  0.8.13 | [下载][0.8.13-win] | [下载][0.8.13-mac] | [下载][0.8.13-linux] |
+|  0.8.12 | [下载][0.8.12-win] | [下载][0.8.12-mac] | [下载][0.8.12-linux] |
+|  0.8.11 | [下载][0.8.11-win] | [下载][0.8.11-mac] | [下载][0.8.11-linux] |
+|  0.8.10 | [下载][0.8.10-win] | [下载][0.8.10-mac] | [下载][0.8.10-linux] |
+|  0.8.9 | [下载][0.8.9-win] | [下载][0.8.9-mac] | [下载][0.8.9-linux] |
 |  0.8.8 | [下载][0.8.8-win] | [下载][0.8.8-mac] | [下载][0.8.8-linux] |
 |  0.8.7 | [下载][0.8.7-win] | [下载][0.8.7-mac] | [下载][0.8.7-linux] |
 |  0.8.6 | [下载][0.8.6-win] | [下载][0.8.6-mac] | [下载][0.8.6-linux] |
@@ -53,6 +94,114 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.2-p3-win]:http://pan.baidu.com/s/1qWx97pa
+[1.2-p3-mac]:http://pan.baidu.com/s/1i3BuYFz
+[1.2-p3-linux]:http://pan.baidu.com/s/1c0B5qdM
+
+[1.2-p2-win]:http://pan.baidu.com/s/1qWn0bqk
+[1.2-p2-mac]:http://pan.baidu.com/s/1jGEaFII
+[1.2-p2-linux]:http://pan.baidu.com/s/1o6Fo0iu
+
+[1.2-p1-win]:http://pan.baidu.com/s/1sj6uAfz
+[1.2-p1-mac]:http://pan.baidu.com/s/1mgIGdio
+[1.2-p1-linux]:http://pan.baidu.com/s/1mgsrAXU
+
+[1.1-win]:http://pan.baidu.com/s/1sjr1dpj
+[1.1-mac]:http://pan.baidu.com/s/1mg0yHi4
+[1.1-linux]:http://pan.baidu.com/s/1jGDubg6
+
+[1.1rc1-win]:http://pan.baidu.com/s/1jG3QuV0
+[1.1rc1-mac]:http://pan.baidu.com/s/1eQhDPPw
+[1.1rc1-linux]:http://pan.baidu.com/s/1o6smUng
+
+[1.1-b4-win]:http://pan.baidu.com/s/1ntMaSA1
+[1.1-b4-mac]:http://pan.baidu.com/s/1bn2IyMN
+[1.1-b4-linux]:http://pan.baidu.com/s/1qWPs9dy
+
+[1.1-b3-win]:http://pan.baidu.com/s/1pJoMNSf
+[1.1-b3-mac]:http://pan.baidu.com/s/1qWyoku4
+[1.1-b3-linux]:http://pan.baidu.com/s/1jG24kv0
+
+[1.1-b2-win]:http://pan.baidu.com/s/1gdCJ4H1
+[1.1-b2-mac]:http://pan.baidu.com/s/1hqpaWa4
+[1.1-b2-linux]:http://pan.baidu.com/s/1i3w0vT7
+
+[1.1-b1-win]:http://pan.baidu.com/s/1dDo1b9Z
+[1.1-b1-mac]:http://pan.baidu.com/s/1kT21VQv
+[1.1-b1-linux]:http://pan.baidu.com/s/1gdrKGsb
+
+[1.1-p2-win]:http://pan.baidu.com/s/1pJMCx79
+[1.1-p2-mac]:http://pan.baidu.com/s/1eQd901k
+[1.1-p2-linux]:http://pan.baidu.com/s/1sjuiarb
+
+[1.1-p1-win]:http://pan.baidu.com/s/1kTFsJ9H
+[1.1-p1-mac]:http://pan.baidu.com/s/1o6p4j8I
+[1.1-p1-linux]:http://pan.baidu.com/s/1pJJouDl
+
+[1.0.2-win]:http://pan.baidu.com/s/1pJA0b0n
+[1.0.2-mac]:http://pan.baidu.com/s/1jGuvmuU
+[1.0.2-linux]:http://pan.baidu.com/s/1qWCzSjM
+
+[1.0.1-win]:http://pan.baidu.com/s/1cu76m
+[1.0.1-mac]:http://pan.baidu.com/s/1hqoZCDe
+[1.0.1-linux]:http://pan.baidu.com/s/1c0nLN6g
+
+[1.0-win]:http://pan.baidu.com/s/1eQzmQDO
+[1.0-mac]:http://pan.baidu.com/s/1dDitUFJ
+[1.0-linux]:http://pan.baidu.com/s/1kTn7wLx
+
+[1.0rc4-win]:http://pan.baidu.com/s/1pJkbwin
+[1.0rc4-mac]:http://pan.baidu.com/s/1hq1QBVQ
+[1.0rc4-linux]:http://pan.baidu.com/s/1eQBygj4
+
+[1.0rc2-win]:http://pan.baidu.com/s/1sjx4rNJ
+[1.0rc2-mac]:http://pan.baidu.com/s/1eQpJmqI
+[1.0rc2-linux]:http://pan.baidu.com/s/1ntuUBvN
+
+[1.0rc1-win]:http://pan.baidu.com/s/1sjsKtIl
+[1.0rc1-mac]:http://pan.baidu.com/s/1gdrcRfX
+[1.0rc1-linux]:http://pan.baidu.com/s/1sjO82st
+
+[0.9.3-win]:http://pan.baidu.com/s/1o6JoLzc
+[0.9.3-mac]:http://pan.baidu.com/s/1o69LsOq
+[0.9.3-linux]:http://pan.baidu.com/s/1c0B1Gju
+
+[0.9.2-win]:http://pan.baidu.com/s/1gdzkjgn
+[0.9.2-mac]:http://pan.baidu.com/s/1sj17AJN
+[0.9.2-linux]:http://pan.baidu.com/s/1c0hFuDi
+
+[0.9.1-win]:http://pan.baidu.com/s/1gdgTnqF
+[0.9.1-mac]:http://pan.baidu.com/s/1qW3B0Ck
+[0.9.1-linux]:http://pan.baidu.com/s/1dDitjW1
+
+[0.9.0-win]:http://pan.baidu.com/s/1eQ3VNMi
+[0.9.0-mac]:http://pan.baidu.com/s/1bnCPy5x
+[0.9.0-linux]:http://pan.baidu.com/s/1tUA5o
+
+[0.8.14-win]:http://pan.baidu.com/s/1kT1d5JL
+[0.8.14-mac]:http://pan.baidu.com/s/1jGj4Eu6
+[0.8.14-linux]:http://pan.baidu.com/s/1gdgmYiR
+
+[0.8.13-win]:http://pan.baidu.com/s/1mgE85Pu
+[0.8.13-mac]:http://pan.baidu.com/s/1jGBoOiq
+[0.8.13-linux]:http://pan.baidu.com/s/1hqJ0xhi
+
+[0.8.12-win]:http://pan.baidu.com/s/1eQ3ps2I
+[0.8.12-mac]:http://pan.baidu.com/s/1o6uR15g
+[0.8.12-linux]:http://pan.baidu.com/s/1i3uvHid
+
+[0.8.11-win]:http://pan.baidu.com/s/1c0lbPEK
+[0.8.11-mac]:http://pan.baidu.com/s/1sjpveBN
+[0.8.11-linux]:http://pan.baidu.com/s/1gdCGfgn
+
+[0.8.10-win]:http://pan.baidu.com/s/1o6NWZuq
+[0.8.10-mac]:http://pan.baidu.com/s/1o6E36um
+[0.8.10-linux]:http://pan.baidu.com/s/1i3iPGtn
+
+[0.8.9-win]:http://pan.baidu.com/s/1mggH8P6
+[0.8.9-mac]:http://pan.baidu.com/s/1bnrjr0F
+[0.8.9-linux]:http://pan.baidu.com/s/1c0ozyz2
 
 [0.8.8-win]:http://pan.baidu.com/s/1o6hZneE
 [0.8.8-mac]:http://pan.baidu.com/s/1gdh77nt
@@ -106,24 +255,58 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [0.5.8-mac]:http://pan.baidu.com/s/1i3ECc9f
 [0.5.8-linux]:http://pan.baidu.com/s/1i37QxBf
 
-
-####ADT Plugin
-离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
-
-|    版本号   |
-|:----------:|
-|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)
-|[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
-|[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
-|[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
-|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
-
 ####SDK Tools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.1.2 | [installer_r24.1.2-windows.exe][installer_r24.1.2-win] [android-sdk_r24.1.2-windows.zip][android-sdk_r24.1.2-win] | [android-sdk_r24.1.2-macosx.zip][android-sdk_r24.1.2-mac] | [android-sdk_r24.1.2-linux.tgz][android-sdk_r24.1.2-linux] |
+| sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
+| sdk-tools-r24.0.1 | [installer_r24.0.1-windows.exe][installer_r24.0.1-win] [android-sdk_r24.0.1-windows.zip][android-sdk_r24.0.1-win] | [android-sdk_r24.0.1-macosx.zip][android-sdk_r24.0.1-mac] | [android-sdk_r24.0.1-linux.tgz][android-sdk_r24.0.1-linux] |
+| sdk-tools-r24 | [installer_r24-windows.exe][installer_r24-win] [android-sdk_r24-windows.zip][android-sdk_r24-win] | [android-sdk_r24-macosx.zip][android-sdk_r24-mac] | [android-sdk_r24-linux.tgz][android-sdk_r24-linux] |
+| sdk-tools-r23.0.5 | [android-sdk_r23.0.5-windows(非官方版).zip][android-sdk_r23.0.5-win] | [android-sdk_r23.0.5-macosx(非官方版).zip][android-sdk_r23.0.5-mac] |  |
 | sdk-tools-r23.0.2 | [installer_r23.0.2-windows.exe][installer_r23.0.2-win] [android-sdk_r23.0.2-windows.zip][android-sdk_r23.0.2-win] | [android-sdk_r23.0.2-macosx.zip][android-sdk_r23.0.2-mac] | [android-sdk_r23.0.2-linux.tgz][android-sdk_r23.0.2-linux] |
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
+
+> **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.1.2-win]:http://pan.baidu.com/s/1pJwVClt
+[android-sdk_r24.1.2-win]:http://pan.baidu.com/s/1ntOefLf
+
+[android-sdk_r24.1.2-mac]:http://pan.baidu.com/s/1qWv7Jpq
+
+[android-sdk_r24.1.2-linux]:http://pan.baidu.com/s/1ntzbACp
+
+
+[installer_r24.0.2-win]:http://pan.baidu.com/s/1eQH3ZOI
+[android-sdk_r24.0.2-win]:http://pan.baidu.com/s/1c0vnzMC
+
+[android-sdk_r24.0.2-mac]:http://pan.baidu.com/s/1mgDnXMw
+
+[android-sdk_r24.0.2-linux]:http://pan.baidu.com/s/1eQEglTS
+
+
+[installer_r24.0.1-win]:http://pan.baidu.com/s/1gdgojhp
+[android-sdk_r24.0.1-win]:http://pan.baidu.com/s/1gdEKclP
+
+[android-sdk_r24.0.1-mac]:http://pan.baidu.com/s/1i3467DN
+
+[android-sdk_r24.0.1-linux]:http://pan.baidu.com/s/1gdvNj83
+
+
+[installer_r24-win]:http://pan.baidu.com/s/1jG5ks7c
+[android-sdk_r24-win]:http://pan.baidu.com/s/1pJ4uk4r
+
+[android-sdk_r24-mac]:http://pan.baidu.com/s/1pJ8xUgN
+
+[android-sdk_r24-linux]:http://pan.baidu.com/s/1pJ4uk47
+
+
+
+[android-sdk_r23.0.5-win]:http://pan.baidu.com/s/1bntmoqV
+
+[android-sdk_r23.0.5-mac]:http://pan.baidu.com/s/1o6LWg10
+
+
 
 [installer_r23.0.2-win]:http://pan.baidu.com/s/1jGj2xIA
 [android-sdk_r23.0.2-win]:http://pan.baidu.com/s/1CiWSu
@@ -140,12 +323,100 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [android-sdk_r23-linux]:http://pan.baidu.com/s/1yBnSa
 
+####SDK Platform-Tools
+
+这是 adb, fastboot 等工具包。把解压出来的 `platform-tools` 文件夹放在 android sdk 根目录下，并把 `adb`所在的目录添加到系统 `PATH` 路径里，即可在命令行里直接访问了 adb, fastboot 等工具。
+
+| 版本号        | Windows             |          Mac OSX        |          Linux         |
+|:----------|:-------------:|:------|:----------:|
+| platform-tools-r22 | [platform-tools_r22-windows.zip][platform-tools_r22-win] | [platform-tools_r22-mac.zip][platform-tools_r22-mac] | [platform-tools_r22-linux.zip][platform-tools_r22-linux] |
+| platform-tools-r21 | [platform-tools_r21-windows.zip][platform-tools_r21-win] | [platform-tools_r21-mac.zip][platform-tools_r21-mac] | [platform-tools_r21-linux.zip][platform-tools_r21-linux] |
+| platform-tools-r20 | [platform-tools_r20-windows.zip][platform-tools_r20-win] | [platform-tools_r20-mac.zip][platform-tools_r20-mac] | [platform-tools_r20-linux.zip][platform-tools_r20-linux] |
+
+[platform-tools_r22-win]:http://pan.baidu.com/s/1sj4ZfTb
+[platform-tools_r22-mac]:http://pan.baidu.com/s/1jG3l6Ea
+[platform-tools_r22-linux]:http://pan.baidu.com/s/1c0GUTxA
+
+[platform-tools_r21-win]:http://pan.baidu.com/s/1gdF1fkZ
+[platform-tools_r21-mac]:http://pan.baidu.com/s/1dDu6xC9
+[platform-tools_r21-linux]:http://pan.baidu.com/s/1dDAL25j
+[platform-tools_r20-win]:http://pan.baidu.com/s/1ntHqLZj
+[platform-tools_r20-mac]:http://pan.baidu.com/s/1gdy6fzP
+[platform-tools_r20-linux]:http://pan.baidu.com/s/173KQi
+
+### Build-Tools
+这是Android开发所需的Build-Tools，下载并解压后，将解压出的整个文件夹复制或者移动到 `your sdk 路径/build-tools` 文件夹即可。
+
+| 版本号  |   Windows         |       Mac OSX     |       Linux     |
+|:------:|:--------------:|:-----------------:|:------------------:|
+|  22.0.0 | [下载][22.0.0-win] | [下载][22.0.0-mac] | [下载][22.0.0-linux] |
+|  21.1.2 | [下载][21.1.2-win] | [下载][21.1.2-mac] |  |
+|  21.1.1 | [下载][21.1.1-win] | [下载][21.1.1-mac] |  |
+|  21.1.0 | [下载][21.1.0-win] | [下载][21.1.0-mac] |  |
+|  21.0.2 | [下载][21.0.2-win] | [下载][21.0.2-mac] |  |
+|  21.0.1 | [下载][21.0.1-win] | [下载][21.0.1-mac] |  |
+|  21.0.0 | [下载][21.0.0-win] | [下载][21.0.0-mac] |  |
+|  20.0.0 | 				   | [下载][20.0.0-mac] |  |
+|  19.1.0 | [下载][19.1.0-win] | [下载][19.1.0-mac] |  |
+|  19.0.3 | [下载][19.0.3-win] | [下载][19.0.3-mac] |  |
+|  19.0.2 | [下载][19.0.2-win] | [下载][19.0.2-mac] |  |
+|  19.0.1 | [下载][19.0.1-win] | [下载][19.0.1-mac] |  |
+|  19.0.0 | [下载][19.0.0-win] | [下载][19.0.0-mac] |  |
+
+
+[22.0.0-win]:http://pan.baidu.com/s/1i3kqFHV
+[22.0.0-mac]:http://pan.baidu.com/s/1jGquuqU
+[22.0.0-linux]:http://pan.baidu.com/s/1dDdDne5
+
+[21.1.2-win]:http://pan.baidu.com/s/1hqH1pZY
+[21.1.2-mac]:http://pan.baidu.com/s/1hq1mml2
+
+[21.1.1-win]:http://pan.baidu.com/s/1mgzFXW0
+[21.1.1-mac]:http://pan.baidu.com/s/1i367FTz
+
+
+[21.1.0-win]:http://pan.baidu.com/s/1pJ3DCGN
+[21.1.0-mac]:http://pan.baidu.com/s/1hqIfeCW
+
+
+[21.0.2-win]:http://pan.baidu.com/s/1kTDpnt9
+[21.0.2-mac]:http://pan.baidu.com/s/1dDCf9TZ
+
+
+[21.0.1-win]:http://pan.baidu.com/s/1eQreI6A
+[21.0.1-mac]:http://pan.baidu.com/s/1eQCd5YE
+
+
+[21.0.0-win]:http://pan.baidu.com/s/1i3y0mKd
+[21.0.0-mac]:http://pan.baidu.com/s/1i3oWM01
+
+
+
+
+[20.0.0-mac]:http://pan.baidu.com/s/1c0AfIOK
+
+
+[19.1.0-win]:http://pan.baidu.com/s/1nttAyhV
+[19.1.0-mac]:http://pan.baidu.com/s/1nt2vM21
+
+[19.0.3-win]:http://pan.baidu.com/s/1qWCzdwC
+[19.0.3-mac]:http://pan.baidu.com/s/1hq7VIgG
+
+[19.0.2-win]:http://pan.baidu.com/s/1ntl0Qnf
+[19.0.2-mac]:http://pan.baidu.com/s/1xY7PO
+
+[19.0.1-win]:http://pan.baidu.com/s/1pJ1BJrt
+[19.0.1-mac]:http://pan.baidu.com/s/1o65bAwa
+
+[19.0.0-win]:http://pan.baidu.com/s/1o6I8NBs
+[19.0.0-mac]:http://pan.baidu.com/s/1c0dBDvE
 
 ####SDK
 这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
+| android 5.0  | [下载][android-21-win] | [下载][android-21-mac] | [下载][android-21-mac] |
 | android L Rev3 | [下载][android-L-r3-win] | [下载][android-L-r3-mac] | [下载][android-L-r3-mac] |
 | android L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-mac] |
 | android 4.4W | [下载][android-20-win] | [下载][android-20-mac] | [下载][android-20-mac] |
@@ -161,6 +432,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] | [下载][android-10-mac] |
 | android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] | [下载][android-8-mac] |
 
+[android-21-win]:http://pan.baidu.com/s/1i33Puo1
+[android-21-mac]:http://pan.baidu.com/s/1o6v7E2I
+
 [android-L-r3-win]:http://pan.baidu.com/s/1u8dhc
 [android-L-r3-mac]:http://pan.baidu.com/s/1jG1duN8
 
@@ -170,23 +444,23 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-20-win]:http://pan.baidu.com/s/1eYPGE
 [android-20-mac]:http://pan.baidu.com/s/1nt5GKWh
 
-[android-19-win]:http://pan.baidu.com/s/1kT60PGN
+[android-19-win]:http://pan.baidu.com/s/1eQf8ZgI
 [android-19-mac]:http://pan.baidu.com/s/1c03XoL6
 
-[android-18-win]:http://pan.baidu.com/s/1dDrJWit
-[android-18-mac]:http://pan.baidu.com/s/1i3mmidn
+[android-18-win]:http://pan.baidu.com/s/1o65bfV8
+[android-18-mac]:http://pan.baidu.com/s/1bn1tNm3
 
-[android-17-win]:http://pan.baidu.com/s/16Jyge
-[android-17-mac]:http://pan.baidu.com/s/1jGLvX6Q
+[android-17-win]:http://pan.baidu.com/s/1mgICw9E
+[android-17-mac]:http://pan.baidu.com/s/1pJJSlfl
 
-[android-16-win]:http://pan.baidu.com/s/1c0D0Fok
-[android-16-mac]:http://pan.baidu.com/s/1pJ4qMb5
+[android-16-win]:http://pan.baidu.com/s/1nt3bpI5
+[android-16-mac]:http://pan.baidu.com/s/1kTA6V8z
 
-[android-15-win]:http://pan.baidu.com/s/1eQekIzS
-[android-15-mac]:http://pan.baidu.com/s/1eQH0vHC
+[android-15-win]:http://pan.baidu.com/s/1pJoegpd
+[android-15-mac]:http://pan.baidu.com/s/1jGzdDxc
 
-[android-14-win]:http://pan.baidu.com/s/1jGBmAjW
-[android-14-mac]:http://pan.baidu.com/s/1nt7cEDF
+[android-14-win]:http://pan.baidu.com/s/1c0H6Ld2
+[android-14-mac]:http://pan.baidu.com/s/1hqwzPTa
 
 [android-13-win]:http://pan.baidu.com/s/1jGLvX6A
 [android-13-mac]:http://pan.baidu.com/s/1qWqH9Q8
@@ -209,6 +483,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
+| android 5.0  | [下载][Images-5.0-win] | [下载][Images-5.0-mac] | [下载][Images-5.0-mac] |
 | android L  | [下载][Images-L-win] | [下载][Images-L-mac] | [下载][Images-L-mac] |
 | android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] | [下载][Images-20-mac] |
 | android 4.4.2 | [下载][Images-19-win] | [下载][Images-19-mac] | [下载][Images-19-mac] |
@@ -217,6 +492,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | android 4.1.2 | [下载][Images-16-win] | [下载][Images-16-mac] | [下载][Images-16-mac] |
 | android 4.0.3 | [下载][Images-15-win] | [下载][Images-15-mac] | [下载][Images-15-mac] |
 | android 4.0 | [下载][Images-14-win] | [下载][Images-14-mac] | [下载][Images-14-mac] |
+
+[Images-5.0-win]:http://pan.baidu.com/s/1ntwpDQL
+[Images-5.0-mac]:http://pan.baidu.com/s/1D7glC
 
 [Images-L-win]:http://pan.baidu.com/s/1hqIcqhA
 [Images-L-mac]:http://pan.baidu.com/s/1ntFQlRV
@@ -329,6 +607,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本 |
 |:----------|
+|[android 5.0][sources-21]|
 |[android 4.4W][sources-20]|
 |[android 4.4.2][sources-19]|
 |[android 4.3][sources-18]|
@@ -340,6 +619,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[android 2.3.3][sources-10]|
 |[android 2.2][sources-8]|
 
+[sources-21]:http://pan.baidu.com/s/1dD5Z1Hf
 [sources-20]:http://pan.baidu.com/s/1eQf6F0Q
 [sources-19]:http://pan.baidu.com/s/1hqGGrVA
 [sources-18]:http://pan.baidu.com/s/1pJI3YrD
@@ -356,13 +636,19 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21.0.3](http://pan.baidu.com/s/1kTmlB9d)   |
+| [21.0.2](http://pan.baidu.com/s/1mgso8Y0)   |
+| [21](http://pan.baidu.com/s/1o6v78Lk)   |
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
 ####Support Library
-包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+包含support `v4`、`v7`、`v13`、`v17`、`multidex`和`m2repository`，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 |    版本号  |
 |:---------:|
+| [21.0.3](http://pan.baidu.com/s/1ntsoeE1)   |
+| [21.0.2](http://pan.baidu.com/s/1kTzIkYV)   |
+| [21](http://pan.baidu.com/s/1o6MBWIu)   |
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
 ####SDK Samples
@@ -371,6 +657,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本 |
 |:----------|
+|[android 21][samples-21]|
 |[android L][samples-L]|
 |[android 4.4W][samples-20]|
 |[android 4.4.2][samples-19]|
@@ -385,6 +672,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[android 2.3.3][samples-10]|
 |[android 2.2][samples-8]|
 
+[samples-21]:http://pan.baidu.com/s/1dDD19XB
 [samples-L]:http://pan.baidu.com/s/1gdpEan5
 [samples-20]:http://pan.baidu.com/s/1ntLVN9B
 [samples-19]:http://pan.baidu.com/s/1dDeSKt7
@@ -400,34 +688,47 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [samples-8]:http://pan.baidu.com/s/1ntv7wut
 
 ####NDK
-C/C++开发Android应用工具包
-
-| Platform(32-bit target) | Package |
-|:----------|:-------------|
-| Windows 32-bit | [android-ndk32-r10-windows-x86.zip](http://pan.baidu.com/s/1bnB1o1T) | 
-| Windows 64-bit | [android-ndk32-r10-windows-x86_64.zip](http://pan.baidu.com/s/1gdmW6cj) | 
-| Mac OS X 32-bit | [android-ndk32-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1jGtBYyq) | 
-| Mac OS X 64-bit | [android-ndk32-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gdADfaF) | 
-| Linux 32-bit (x86) | [android-ndk32-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1V2Tg) | 
-| Linux 64-bit (x86) | [android-ndk32-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1pJJQokV) | 
-
-| Platform(64-bit target)	| Package |
-|:----------|:-------------|
-| Windows 32-bit	| [android-ndk64-r10-windows-x86.zip](http://pan.baidu.com/s/1qW0RtzI) | 
-| Windows 64-bit	| [android-ndk64-r10-windows-x86_64.zip](http://pan.baidu.com/s/1ntypDpf) | 
-| Mac OS X 32-bit	| [android-ndk64-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1o6G44Eu) | 
-| Mac OS X 64-bit	| [android-ndk64-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gd7pvJ9) | 
-| Linux 32-bit (x86)| [android-ndk64-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1hql8AIo) | 
-| Linux 64-bit (x86)| [android-ndk64-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1dDreuPz) | 
+C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳[这里](https://github.com/inferjay/AndroidDevTools/wiki/Installing-the-NDK-On-Linux-and-Mac-OS-X-(Darwin)
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------:|:----------:|
+| ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
+| ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
+| ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
+
 
 | Additional Download (32-, 64-bit) |  Package |
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+[r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
+[r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
+
+[r10c-mac-32]:http://pan.baidu.com/s/1i37Ud8L
+[r10c-mac-64]:http://pan.baidu.com/s/1eQ08GOa
+
+[r10c-linux-32]:http://pan.baidu.com/s/1c0o11wk
+[r10c-linux-64]:http://pan.baidu.com/s/1c0tljk0
+
+[ndk64-r10-win-32]:http://pan.baidu.com/s/1qW0RtzI
+[ndk64-r10-win-64]:http://pan.baidu.com/s/1ntypDpf
+
+[ndk64-r10-mac-32]:http://pan.baidu.com/s/1o6G44Eu
+[ndk64-r10-mac-64]:http://pan.baidu.com/s/1gd7pvJ9
+
+[ndk64-r10-linux-32]:http://pan.baidu.com/s/1hql8AIo
+[ndk64-r10-linux-64]:http://pan.baidu.com/s/1dDreuPz
+
+[ndk32-r10-win-32]:http://pan.baidu.com/s/1bnB1o1T
+[ndk32-r10-win-64]:http://pan.baidu.com/s/1gdmW6cj
+
+[ndk32-r10-mac-32]:http://pan.baidu.com/s/1jGtBYyq
+[ndk32-r10-mac-64]:http://pan.baidu.com/s/1gdADfaF
+
+[ndk32-r10-linux-32]:http://pan.baidu.com/s/1V2Tg
+[ndk32-r10-linux-64]:http://pan.baidu.com/s/1pJJQokV
 
 [r9d-win-32]:http://pan.baidu.com/s/1dDxjl8t
 [r9d-win-64]:http://pan.baidu.com/s/1jGgecXw
@@ -475,17 +776,88 @@ C/C++开发Android应用工具包
 [1.6-linux-32]:http://pan.baidu.com/s/1pJJj5Ib
 [1.6-linux-64]:http://pan.baidu.com/s/1dDck3O9
 
+
+####ADT Bundle
+ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
+
+| 版本号  | Windows                |      Mac OSX       |          Linux         |
+|:----------:|:-------------:|:------:|:----------:|
+| 23.0.2 | [32位][adtb-23-0-2-win-32] [64位][adtb-23-0-2-win-64] |[64位][adtb-23-0-2-mac-64] | [32位][adtb-23-0-2-linux-32] [64位][adtb-23-0-2-linux-64] |
+| 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
+
+[adtb-23-0-2-win-32]:http://pan.baidu.com/s/1dDGM8oD
+[adtb-23-0-2-win-64]:http://pan.baidu.com/s/1mgn2dOs
+
+[adtb-23-0-2-mac-64]:http://pan.baidu.com/s/1o6OBIHG
+
+[adtb-23-0-2-linux-32]:http://pan.baidu.com/s/1GmIsQ
+[adtb-23-0-2-linux-64]:http://pan.baidu.com/s/1EQMT4
+
+[adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
+[adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
+
+[adtb-23-mac-64]:http://pan.baidu.com/s/1hqvHkry
+
+[adtb-23-linux-32]:http://pan.baidu.com/s/1mgoh41q
+[adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
+
+####ADT Plugin
+离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
+
+|    版本号   |
+|:----------:|
+|[ADT-23.0.4](http://pan.baidu.com/s/1i39UM7j)|
+|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)|
+|[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
+|[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
+|[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
+|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
+
 ####Gradle
 
 |    版本号   |
 |:----------|
-| [gradle-2.0-rc-2-all.zip](http://pan.baidu.com/s/1dDzleTV) |
+| [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
+| [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
+| [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
+| [gradle-2.0-all.zip](http://pan.baidu.com/s/1mgFTN7a) |
 | [gradle-1.12-all.zip](http://pan.baidu.com/s/1Gmlx8)   |
 | [gradle-1.11-all.zip](http://pan.baidu.com/s/1c0hCmdE) |
 | [gradle-1.10-all.zip](http://pan.baidu.com/s/1qWtzaGW) |
 | [gradle-1.9-all.zip](http://pan.baidu.com/s/1dDeSuXV)  |
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
+
+#### Gradle Dependencies Configuration Generator
+
+[Gradle, please](http://gradleplease.appspot.com)
+
+#### 版本控制工具
+
+##### Git
+
+| 版本号       |         Windows         |       Mac OSX           |    Linux                |
+|:------------|:-----------------------:|:-----------------------:|:-----------------------:|
+|  Git-2.0.1  |                         | [下载][Git-2.0.1-mac]    | [下载][Git-for-Linux]|
+|  Git-1.9.4  | [下载][Git-1.9.4-win]    |                         | [下载][Git-for-Linux]|
+|  Git-1.8.5.2| [下载][Git-1.8.5.2-win] | [下载][Git-1.8.5.2-mac]  | [下载][Git-for-Linux] |
+
+[Git-2.0.1-mac]:http://pan.baidu.com/s/1mgkM9BE
+
+[Git-1.9.4-win]:http://pan.baidu.com/s/1ntjy9N7
+
+[Git-1.8.5.2-win]:http://pan.baidu.com/s/1ntJWxeD
+[Git-1.8.5.2-mac]:http://pan.baidu.com/s/1bncr1pX
+
+[Git-for-Linux]:https://github.com/inferjay/AndroidDevTools/wiki/Download-for-Linux-and-Unix
+
+##### SVN Plugin For Eclipse
+
+|    版本号   |
+|:-----------|
+| [1.10.5](http://pan.baidu.com/s/1mg2x4Xq) |
+| [1.8.22](http://pan.baidu.com/s/1hqswoGs) |
+| [1.6.18](http://pan.baidu.com/s/1o60r6UA) |
 
 #### 反编译工具
 
@@ -504,6 +876,9 @@ C/C++开发Android应用工具包
 | JAD Java Decompiler           | [下载][JAD Java Decompiler]       |                |
 | JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
 | XJad V2.2                     | [下载][XJad V2.2]                 |                |
+| Android APK Decompiler        | [下载][Android APK Decompiler]    | 在线反编译工具 |
+| JADX - Dex to Java decompiler | [下载][JADX]                      |                |
+| dex2jar                       | [下载][dex2jar]                   |                |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -518,6 +893,9 @@ C/C++开发Android应用工具包
 [JAD Java Decompiler]:http://varaneckas.com/jad/
 [JD-GUI Decompiler]:http://
 [XJad V2.2]:http://files.cnblogs.com/arix04/XJad_V2.2.rar
+[Android APK Decompiler]:http://www.decompileandroid.com/
+[JADX]:https://github.com/skylot/jadx
+[dex2jar]:https://code.google.com/p/dex2jar/
 
 #### 安全工具
 
@@ -600,6 +978,8 @@ C/C++开发Android应用工具包
 | IDEA Background Image Plugin                | [下载][Intellij-IDEA-Plugin-Background-Image]     |                 |
 | IDEA Maven Plugin                           | [下载][idea-plugin-maven-plugin]                  |                 |
 | Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
+| Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
+| Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -626,6 +1006,8 @@ C/C++开发Android应用工具包
 [CodeGlance]:https://github.com/Vektah/CodeGlance
 [idea-plugin-maven-plugin]:https://github.com/born2snipe/idea-plugin-maven-plugin
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
+[android-selector-chapek]:https://github.com/inmite/android-selector-chapek
+[android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
@@ -636,6 +1018,7 @@ C/C++开发Android应用工具包
 | Android Holo Colors Generator       |       | [下载][HoloColorsGenerator]  |                 |
 | Android Simple Nine-patch Generator |       | [下载][Simple Nine-patch Generator]  |                 |
 | Android Device Frame Generator |            | [下载][Device Frame Generator]  |                 |
+| Android 9-patch shadow generator |            | [下载][Android shadow generator]  |                 |
 
 [AndroidAssetStudio]:http://romannurik.github.io/AndroidAssetStudio/
 [AndroidDrawableFactory]:https://github.com/tizionario/AndroidDrawableFactory
@@ -643,6 +1026,7 @@ C/C++开发Android应用工具包
 [HoloColorsGenerator]:http://android-holo-colors.com
 [Simple Nine-patch Generator]:http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
 [Device Frame Generator]:http://f2prateek.com/android-device-frame-generator/
+[Android shadow generator]:http://inloop.github.io/shadow4android/
 
 #### Android资源分析工具
 | 名称                   |      简介        |         下载地址            |    使用教程      |
@@ -701,6 +1085,9 @@ C/C++开发Android应用工具包
 | 易测云            |                  | [下载][易测云]               |                 |
 | Emmagee          |                  | [下载][Emmagee]             |                 |
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
+| APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
+| GT          | GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug&Test Environment)。 | [下载][GT]             |    [教程][GT-use-guide]     |
+| Stetho        | Stetho 是Facebook推出的Android 调试平台，基于 Chrome Developer Tools ，调试网络请求方面特别方便。 | [下载][Stetho]             |    [教程][Stetho-use-guide]     |
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -710,6 +1097,14 @@ C/C++开发Android应用工具包
 [易测云]:http://www.yiceyun.com
 [Emmagee]:https://code.google.com/p/emmagee/
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
+[APT]:https://code.csdn.net/Tencent/apt
+[GT]:http://gt.tencent.com/index.html
+[Stetho]:https://github.com/facebook/stetho
+
+
+[APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
+[GT-use-guide]:http://gt.tencent.com/docs.html
+[Stetho-use-guide]:http://facebook.github.io/stetho/
 
 #### Android多渠道打包工具
 
@@ -778,6 +1173,14 @@ C/C++开发Android应用工具包
 | Android Serialport Api |                  | [下载][android-serialport-api]  |                 |
 
 [android-serialport-api]:https://code.google.com/p/android-serialport-api/
+
+
+#### 图片尺寸处理工具
+| 名称                    |      简介         |         下载地址               |    使用教程      |
+|:-----------------------|------------------|:------------------------------:|:---------------:|
+| 9-Patch Resizer        |                  | [下载][9-Patch Resizer]         |                 |
+
+[9-Patch Resizer]:https://github.com/redwarp/9-Patch-Resizer
 
 #### 图片压缩工具
 
@@ -907,6 +1310,18 @@ C/C++开发Android应用工具包
 
 ##Guides
 
+#### Google Java编程风格指南中文版
+
+英文地址：[http://google-styleguide.googlecode.com/svn/trunk/javaguide.html](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+
+地址0：[http://hawstein.com/posts/google-java-style.html](http://hawstein.com/posts/google-java-style.html)
+
+地址1：[https://github.com/codeset/google-java-styleguide](https://github.com/codeset/google-java-styleguide)
+
+#### Android Developers 国内镜像站
+
+地址: [Android Developers 国内镜像站](http://androiddoc.qiniudn.com/)
+
 #### Android Api中文版
 地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
@@ -920,7 +1335,7 @@ C/C++开发Android应用工具包
 
 #### Gradle插件使用指南中文版
 
-地址：[https://github.com/inferjay/GradlePluginUserGuideCN](https://github.com/inferjay/GradlePluginUserGuideCN)
+地址：[http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision](http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision)
 
 ####Gradle User Guide
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
@@ -939,6 +1354,10 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
 
+#### Java Design Patterns Samples in Java.
+
+[Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+
 # Design
 ---
 
@@ -948,17 +1367,19 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
-| Cut&Slice        |    切图神器       | [下载][j2Objc]              |                 |
+| Cut&Slice        |    切图神器       | [下载][Cut&Slice]              |                 |
 | DevRocket        |    切图神器       | [下载][RoboVM]              |                 |
-| Cutterman        |   最好用的切图工具 | [下载][j2Objc]              |                 |
+| Cutterman        |   最好用的切图工具 | [下载][Cutterman]              |                 |
 | Ink              |                  | [下载][Ink]                 |                 |
 | Corner Editor    |   路径圆角编辑工具 | [下载1][Corner Editor1] <br/>[下载1][Corner Editor2]      |                 |
 | GuideGuide       |   辅助线工具      | [下载][GuideGuide]          |                 |
 | Assistor PS      |                  | [下载][Assistor PS]         |                 |
 | Skeuomorphism.it |                  | [下载][Skeuomorphism.it]    |                 |
-| QuickGuide       |                  | [下载][j2Objc]              |                 |
-| Long Shadow Generator | 长投影效果生成插件 | [下载][RoboVM]         |                 |
-
+| QuickGuide       |                  | [下载][QuickGuide]              |                 |
+| Long Shadow Generator | 长投影效果生成插件 | [下载][Long Shadow Generator]         |                 |
+| android_resizer_toolkit |          | [下载][android_resizer_toolkit] |             |
+| android-ps-tools | 一些方便Android UI设计的PhototShop插件。 | [下载][android-ps-tools] |             |
+| LayerCraft       |A Photoshop plugin to export UI assets from layers| [下载][LayerCraft]            |                 |
 
 [Cut&Slice]:http://www.cutandslice.me
 [DevRocket]:http://devrocket.uiparade.com
@@ -970,7 +1391,10 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [Assistor PS]:http://assistor.net/en/assistor
 [Skeuomorphism.it]:http://skeuomorphism.it
 [QuickGuide]:http://guchitaka.com/project-view/quickguidepro/
-[Long Shadow Generator]:http://lab.rayps.com/lsg/
+[Long Shadow Generator]:http://lab.rayps.com/lsg2/
+[android_resizer_toolkit]:https://github.com/marcosecchi/android_resizer_toolkit
+[android-ps-tools]:https://github.com/timroes/android-ps-tools
+[LayerCraft]:http://lab.rayps.com/lc/
 
 #### 矢量图设计工具
 
@@ -1020,6 +1444,12 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | Composite        |                  | [下载][Composite]           |                 |
 | OmniGraffle      |                  | [下载][OmniGraffle]         |                 |
 | Marvelapp        |                  | [下载][Marvelapp]           |                 |
+| Justinmind       |                  | [下载][Justinmind]          |                 |
+| Form             |                  | [下载][Form]                |                 |
+| Prott            |                  | [下载][Prott]               |                 |
+| Composite        |                  | [下载][Composite]           |                 |
+| Avocado          |                  | [下载][Avocado]             |                 |
+| Pixate           |                  | [下载][Pixate]              |                 |
 
 [Axure]:http://www.axure.com
 [Fluid UI]:https://chrome.google.com/webstore/detail/fluid-ui/obgmmkbgpilmggfkhganmcmpemnhimgg?hl=en
@@ -1035,6 +1465,12 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [Composite]:http://www.getcomposite.com
 [OmniGraffle]:https://www.omnigroup.com/omnigraffle
 [Marvelapp]:https://marvelapp.com
+[Justinmind]:http://www.justinmind.com/
+[Form]:http://www.relativewave.com/form.html
+[Prott]:https://prottapp.com
+[Composite]:http://www.getcomposite.com/
+[Avocado]:https://github.com/ideo/avocado
+[Pixate]:http://www.pixate.com/
 
 #### 交互设计工具
 
@@ -1153,23 +1589,36 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | Reflector        |                  | [下载][Reflector]           |                 |
 | x-Mirage         |                  | [下载][x-Mirage]            |                 |
 | AirServer        |                  | [下载][AirServer]           |                 |
+| BBQScreen        |                  | [下载][BBQScreen]           |                 |
 
 [Reflector]:http://www.airsquirrels.com/reflector/download/
 [x-Mirage]:http://x-mirage.com/x-mirage/
 [AirServer]:http://www.airserver.com
+[BBQScreen]:http://screen.bbqdroid.org
 
 #### Gif图片录制工具
 
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
+| GifCam           |                  | [下载][GifCam]              |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
+[GifCam]:http://blog.bahraniapps.com/gifcam/
+
+## UI Programming Language
+
+[UILang](http://uilang.com)
 
 ## Tutorials
 
 [HackDesign](https://hackdesign.org/lessons)
 
+## Games
+
+[The Bezier Game](http://bezier.method.ac)
+
+一个帮助你练习PS里钢笔工具的小游戏。
 
 ## Guides
 
@@ -1193,9 +1642,15 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 地址：[http://design.1sters.com](http://design.1sters.com)
 
+地址： [http://www.ui.cn/Material/](http://www.ui.cn/Material/)
+
 #### Designer's Guide To dpi
 
 地址：[http://sebastien-gabriel.com/designers-guide-to-dpi/home](http://sebastien-gabriel.com/designers-guide-to-dpi/home#)
+
+#### Email Design Guide
+
+地址：[http://mailchimp.com/resources/email-design-guide/](http://mailchimp.com/resources/email-design-guide/)
 
 ## Free Design Resources
 
@@ -1203,18 +1658,32 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [Material Design Icon Templates](https://dribbble.com/shots/1617724)
 
+[Material Design的图标集](https://github.com/google/material-design-icons)
+
+[Material Design UI Kit for Sketch](https://www.behance.net/gallery/20514895/Material-Design-UI-Kit)
+
 [Nexus 5 template for Sketch](http://tristanremy.com/nexus-5/)
 
 [Free Design Resources](http://androiduiux.com/free-design-resources/?blogsub=confirming#blog_subscription-2)
 
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
+[UI Cloun](http://ui-cloud.com)
+
+[161个国内外社交网站矢量图标](http://github.com/nullice/NViconsLib_Silhouette)
+
+[250 free icons in 5 sizes and 14 colors](http://www.androidicons.com)
+
 # Books
 ---
 
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
+一堆免费的Android开发相关的电子书。
 
+[50 Android Hacks](http://www.it-ebooks.info/book/2445/)
+
+50 Android Hacks这本书分12个部分介绍了50个Android开发的小技巧。
 
 # License
 ---
