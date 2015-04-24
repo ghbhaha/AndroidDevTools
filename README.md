@@ -16,12 +16,21 @@ AndroidDevTools
 ---
 
 ####Android SDK在线更新镜像服务器
+
+1. 中国科学院开源协会镜像站地址:
+
+   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+
 	
-1. 大连东软信息学院镜像服务器地址: 
+1. 上海GDG镜像服务器地址:
 
-	`http://mirrors.neusoft.edu.cn` 端口：80
+	* `http://sdk.gdgshanghai.com `  端口：8000	
 
-2. 北京化工大学镜像服务器地址: 
+1. 北京化工大学镜像服务器地址: 
    	
    * IPv4: `http://ubuntu.buct.edu.cn/` 端口：80
    
@@ -29,17 +38,9 @@ AndroidDevTools
    
    * IPv6: `http://ubuntu.buct6.edu.cn/`  端口：80
 	
-3. 上海GDG镜像服务器地址:
+1. 大连东软信息学院镜像服务器地址: 
 
-	`http://sdk.gdgshanghai.com `  端口：8000
-
-4. 中国科学院开源协会镜像站地址:
-
-   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
-
-   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
-
-   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+	* `http://mirrors.neusoft.edu.cn` 端口：80
 
 **使用方法**：
 	
@@ -54,6 +55,10 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.2 Beta3 | [下载][1.2-beta3-win] | [下载][1.2-beta3-mac] | [下载][1.2-beta3-linux] |
+|  1.2 Beta2 | [下载][1.2-beta2-win] | [下载][1.2-beta2-mac] | [下载][1.2-beta2-linux] |
+|  1.2 Beta | [下载][1.2-beta-win] | [下载][1.2-beta-mac] | [下载][1.2-beta-linux] |
+|  1.2 Preview 4 | [下载][1.2-p4-win] | [下载][1.2-p4-mac] | [下载][1.2-p4-linux] |
 |  1.2 Preview 3 | [下载][1.2-p3-win] | [下载][1.2-p3-mac] | [下载][1.2-p3-linux] |
 |  1.2 Preview 2 | [下载][1.2-p2-win] | [下载][1.2-p2-mac] | [下载][1.2-p2-linux] |
 |  1.2 Preview 1 | [下载][1.2-p1-win] | [下载][1.2-p1-mac] | [下载][1.2-p1-linux] |
@@ -94,6 +99,22 @@ AndroidDevTools
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.2-beta3-win]:http://pan.baidu.com/s/1i3gT9Rn
+[1.2-beta3-mac]:http://pan.baidu.com/s/1eQnLwhO
+[1.2-beta3-linux]:http://pan.baidu.com/s/154yIE
+
+[1.2-beta2-win]:http://pan.baidu.com/s/1ntyww5r
+[1.2-beta2-mac]:http://pan.baidu.com/s/1sjHRbi9
+[1.2-beta2-linux]:http://pan.baidu.com/s/1jGzOx0M
+
+[1.2-beta-win]:http://pan.baidu.com/s/1c0cZHXu
+[1.2-beta-mac]:http://pan.baidu.com/s/1bnrUSBd
+[1.2-beta-linux]:http://pan.baidu.com/s/1kTpCFTt
+
+[1.2-p4-win]:http://pan.baidu.com/s/1pJ0ZHij
+[1.2-p4-mac]:http://pan.baidu.com/s/1i3kqZ9j
+[1.2-p4-linux]:http://pan.baidu.com/s/1i3w2nNv
 
 [1.2-p3-win]:http://pan.baidu.com/s/1qWx97pa
 [1.2-p3-mac]:http://pan.baidu.com/s/1i3BuYFz
@@ -692,6 +713,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------:|:----------:|
+| ndk-r10d | [32位][r10d-win-32] [64位][r10d-win-64] | [32位][r10d-mac-32] [64位][r10d-mac-64] | [32位][r10d-linux-32] [64位][r10d-linux-64]  |
 | ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
 | ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
 | ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
@@ -702,6 +724,17 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+
+[r10d-win-32]:http://pan.baidu.com/s/1yc9BK
+[r10d-win-64]:http://pan.baidu.com/s/1dDGTrk1
+
+[r10d-mac-32]:http://pan.baidu.com/s/1hqtg8Qg
+[r10d-mac-64]:http://pan.baidu.com/s/1c0En1Uo
+
+[r10d-linux-32]:http://pan.baidu.com/s/1ntkOWEP
+[r10d-linux-64]:http://pan.baidu.com/s/1cxPFK
+
 
 [r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
 [r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
@@ -806,6 +839,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号   |
 |:----------:|
+|[ADT-23.0.6](http://pan.baidu.com/s/1jGraNEQ)|
 |[ADT-23.0.4](http://pan.baidu.com/s/1i39UM7j)|
 |[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)|
 |[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
@@ -861,24 +895,27 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 #### 反编译工具
 
-| 名称                           |         下载地址                  |    使用教程      |
-|:------------------------------|:--------------------------------:|:---------------:|
-| JEB Android Decompiler        | [下载][JEB]                       |                |
-| Virtuous Ten Studio           | [下载][Virtuous Ten Studio]       |                |
-| Apk文件修改工具Root Tools       | [下载][apk文件修改工具Root Tools]   |                |
-| Dex文件反编译工具Dedexer        |  [下载][dex文件反编译工具Dedexer]    |                |
-| APK+Dex文件反编译及回编译工具     | [下载][APK+Dex文件反编译及回编译工具] |                |
-| android-apktool               | [下载][android-apktool]           |                |
-| Onekey Decompile Apk]         | [下载][onekey-decompile-apk]      |                |
-| Baksmali                      | [下载][baksmali]                  |                |
-| Smali                         | [下载][smali]                     |                |
-| AXMLPrinter2                  | [下载][AXMLPrinter2]              |                |
-| JAD Java Decompiler           | [下载][JAD Java Decompiler]       |                |
-| JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
-| XJad V2.2                     | [下载][XJad V2.2]                 |                |
-| Android APK Decompiler        | [下载][Android APK Decompiler]    | 在线反编译工具 |
-| JADX - Dex to Java decompiler | [下载][JADX]                      |                |
-| dex2jar                       | [下载][dex2jar]                   |                |
+| 名称                           |      简介        |         下载地址                  |    使用教程      |
+|:------------------------------|:------------------------------|:--------------------------------:|:---------------:|
+| JEB Android Decompiler   		|                   | [下载][JEB]                       |                |
+| Virtuous Ten Studio     		|                   | [下载][Virtuous Ten Studio]       |                |
+| Apk文件修改工具Root Tools 		|                   | [下载][apk文件修改工具Root Tools]   |                |
+| Dex文件反编译工具Dedexer  		|                   | [下载][dex文件反编译工具Dedexer]     |                |
+| APK+Dex文件反编译及回编译工具 	|                   | [下载][APK+Dex文件反编译及回编译工具] |                |
+| android-apktool     			|                   | [下载][android-apktool]           |                |
+| Onekey Decompile Apk]			|                   | [下载][onekey-decompile-apk]      |                |
+| Baksmali    					|                   | [下载][baksmali]                  |                |
+| Smali     					|                   | [下载][smali]                     |                |
+| AXMLPrinter2 					|                   | [下载][AXMLPrinter2]              |                |
+| JAD Java Decompiler 			|                   | [下载][JAD Java Decompiler]       |                |
+| JD-GUI Decompiler 			|                   | [下载][JD-GUI Decompiler]         |                |
+| XJad V2.2   					|                   | [下载][XJad V2.2]                 |                |
+| Android APK Decompiler		|   在线反编译工具    | [下载][Android APK Decompiler]    |  |
+| JADX - Dex to Java decompiler|                   | [下载][JADX]                      |                |
+| dex2jar  						|                   | [下载][dex2jar]                   |                |
+| SmaliViewer 					|是一款免费的APK分析软件，无论从分析的深度<br/>还是广度来看，都是一款能够满足用户需求的产品，<br/>使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
+| Android逆向助手 					|Android逆向助手是一功能强大的逆向辅助软件。<br/>该软件可以帮助用户来进行apk反编译打包签名；<br/>dex/jar互转替换提取修复；so反编译；<br/>xml、txt加密；字符串编码等等，操作简单<br/>，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
+| Android Killer 			|Android Killer 是一款可视化的安卓应用逆向工具，<br/>集Apk反编译、Apk打包、Apk签名，编码互转，<br/>ADB通信（应用安装-卸载-运行-设备文件管理）<br/>等特色功能于一 身，支持logcat日志输出，<br/>语法高亮，基于关键字（支持单行代码或多行代码段）<br/>项目内搜索，可自定义外部工具；吸收融汇多种工具功能与特点，<br/>打造一站 式逆向工具操作体验，大大简化了用户在<br/>安卓应用/游戏修改过程中的各类繁琐工作。| [下载1][Android-Killer-pd521]<br/>[下载2][Android-Killer-baidu]|[使用指南][Android-Killer-guide]    |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -886,7 +923,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [dex文件反编译工具Dedexer]:http://dedexer.sourceforge.net
 [APK+Dex文件反编译及回编译工具]:http://idoog.me
 [onekey-decompile-apk]:https://code.google.com/p/onekey-decompile-apk/
-[android-apktool]:https://code.google.com/p/android-apktool/
+[android-apktool]:http://ibotpeaches.github.io/Apktool/
 [baksmali]:https://code.google.com/p/smali/downloads/detail?name=baksmali
 [smali]:https://code.google.com/p/smali/
 [AXMLPrinter2]:https://android4me.googlecode.com/files/AXMLPrinter2.jar
@@ -896,6 +933,14 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android APK Decompiler]:http://www.decompileandroid.com/
 [JADX]:https://github.com/skylot/jadx
 [dex2jar]:https://code.google.com/p/dex2jar/
+[SmaliViewer]:http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip
+[Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
+[Android-Killer-pd521]:http://www.pd521.com/thread-136-1-1.html
+[Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
+
+[SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
+[Android逆向助手-guide]:http://www.sanwho.com/620.html
+[Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
 
 #### 安全工具
 
@@ -928,6 +973,31 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [VirusTotal]:https://www.virustotal.com
 [GDB-for-Android]:http://gnutoolchains.com/android/
 [VisualGDB]:http://visualgdb.com/?features=android
+
+#### 搜索工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| Structural Java Exception Search|   Java异常搜索工具               | [下载][Structural-Java-Exception-Search]  |                 |
+
+[Structural-Java-Exception-Search]:http://www.brainleg.com/search
+
+#### Debug调试工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| Stetho        | Stetho 是Facebook推出的Android 调试平台，基于 Chrome Developer Tools ，调试网络请求方面特别方便。 | [下载][Stetho]             |    [教程][Stetho-use-guide]     |
+|Augmented Traffic Control|Facebook宣布开源移动网络测试工具ATC，该工具支持利用Wi-Fi网络模拟2G、2.5G、3G以及LTE 4G移动网络环境，让测试工程师们能够快速对智能手机和App在不同国家地区和应用环境下的性能表现进行测试。| [下载][Augmented-Traffic-Control]  |                 |
+
+[Stetho]:https://github.com/facebook/stetho
+[Augmented-Traffic-Control]:https://github.com/facebook/augmented-traffic-control
+
+### Api测试工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| 	bat 					| 一个用Go写的命令行API测试利器，支持文件下载，<br/>文件上传，支持Linux的pipe方式，总之就是炫酷。 | [下载][Structural-Java-Exception-Search]  | [使用指南][bat-guide] |
+
+[bat]:https://github.com/astaxie/bat
+
+[bat-guide]:https://github.com/astaxie/bat#installation
 
 #### Eclipse/Android Studio/IDEA插件
 ##### Eclipse
@@ -980,6 +1050,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 | Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
+| Color themes for IntelliJ IDEA       	   | [下载][android-drawable-importer-intellij-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -1008,6 +1079,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 [android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
+[Color-themes-for-IntelliJ-IDEA]:http://www.ideacolorthemes.org/home/
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
@@ -1062,10 +1134,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android KickstartR| AndroidKickstartR帮助您快速创建<br/>Android应用程序并使用最流行的库进行配置。<br/>它创建和配置你的项目给你。只专注于代码!                                 | [下载][AndroidKickstartR]   |                 |
 | Android Button Maker| Android Button Maker是一个在线生成Android应用按钮代码的工具。<br/>Android的API提供可绘制资源，其中的XML文件定义的几何形状，包括颜色，边框和梯度。<br/>这些按钮是在shape drawable XML代码基础上产生的相比通常的PNG按钮加载速度更快。<br/>您可以在设置面板中自定义按钮的属性和获得源代码。                | [下载][Android Button Maker] |                 |
 | DroidDraw         |                 | [下载][DroidDraw]           |                 |
+|Android SVG to VectorDrawable|一个可以将SVG图片转换为Vector Drawable xml文件的在线工具。| [下载][Android-SVG-to-VectorDrawable]  |                 |
 
 [AndroidKickstartR]:http://androidkickstartr.com
 [Android Button Maker]:http://angrytools.com/android/button/
 [DroidDraw]:https://code.google.com/p/droiddraw/
+[Android-SVG-to-VectorDrawable]:http://inloop.github.io/svg2android/ 
 
 #### Android Native开发工具
 | 名称              |      简介         |         下载地址            |    使用教程      |
@@ -1087,7 +1161,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
 | APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
 | GT          | GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug&Test Environment)。 | [下载][GT]             |    [教程][GT-use-guide]     |
-| Stetho        | Stetho 是Facebook推出的Android 调试平台，基于 Chrome Developer Tools ，调试网络请求方面特别方便。 | [下载][Stetho]             |    [教程][Stetho-use-guide]     |
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -1099,7 +1172,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
 [APT]:https://code.csdn.net/Tencent/apt
 [GT]:http://gt.tencent.com/index.html
-[Stetho]:https://github.com/facebook/stetho
 
 
 [APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
@@ -1423,8 +1495,12 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | 马克鳗            |                  | [下载][马克鳗]              |                 |
+| PxCook像素大厨    |UI设计师效率提升利器，让你专注于设计本质，<br/>不再为标注切图而烦恼，从设计到实现一气呵成| [下载][PxCook]              |      [使用教程][PxCook-guide]     |
 
 [马克鳗]:http://www.getmarkman.com
+[PxCook]:http://www.fancynode.com.cn
+
+[PxCook-guide]:http://www.fancynode.com.cn/tutorial
 
 #### 原型设计工具
 
@@ -1674,6 +1750,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [250 free icons in 5 sizes and 14 colors](http://www.androidicons.com)
 
+[MINIMALISTIC EVERYDAY ICONS](http://matt-cooper.com/minimalistic-icons/)
+
 # Books
 ---
 
@@ -1684,6 +1762,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [50 Android Hacks](http://www.it-ebooks.info/book/2445/)
 
 50 Android Hacks这本书分12个部分介绍了50个Android开发的小技巧。
+
+[免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
 
 # License
 ---
