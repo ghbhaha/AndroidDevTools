@@ -55,6 +55,13 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.3 Preview 2 | [下载][1.3-p2-win] | [下载][1.3-p2-mac] | [下载][1.3-p2-linux] |
+|  1.3 Preview 1 | [下载][1.3-p1-win] | [下载][1.3-p1-mac] | [下载][1.3-p1-linux] |
+|  1.2.1.1 | [下载][1.2.1.1-win] | [下载][1.2.1.1-mac] | [下载][1.2.1.1-linux] |
+|  1.2 正式版 | [下载][1.2-win] | [下载][1.2-mac] | [下载][1.2-linux] |
+|  1.2 RC3 | [下载][1.2-rc3-win] | [下载][1.2-rc3-mac] | [下载][1.2-rc3-linux] |
+|  1.2 RC2 | [下载][1.2-rc2-win] | [下载][1.2-rc2-mac] | [下载][1.2-rc2-linux] |
+|  1.2 RC | [下载][1.2-rc-win] | [下载][1.2-rc-mac] | [下载][1.2-rc-linux] |
 |  1.2 Beta3 | [下载][1.2-beta3-win] | [下载][1.2-beta3-mac] | [下载][1.2-beta3-linux] |
 |  1.2 Beta2 | [下载][1.2-beta2-win] | [下载][1.2-beta2-mac] | [下载][1.2-beta2-linux] |
 |  1.2 Beta | [下载][1.2-beta-win] | [下载][1.2-beta-mac] | [下载][1.2-beta-linux] |
@@ -99,6 +106,34 @@ AndroidDevTools
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.3-p2-win]:http://pan.baidu.com/s/1hq5uz20
+[1.3-p2-mac]:http://pan.baidu.com/s/1i3nb1Vv
+[1.3-p2-linux]:http://pan.baidu.com/s/1nt5kqQd
+
+[1.3-p1-win]:http://pan.baidu.com/s/1o6OKUIQ
+[1.3-p1-mac]:http://pan.baidu.com/s/1mgIGdio
+[1.3-p1-linux]:http://pan.baidu.com/s/1bn548rH
+
+[1.2.1.1-win]:http://pan.baidu.com/s/1sjDiYIT
+[1.2.1.1-mac]:http://pan.baidu.com/s/1kTDvwBd
+[1.2.1.1-linux]:http://pan.baidu.com/s/1dDlhpGt
+
+[1.2-win]:http://pan.baidu.com/s/1mgKehW8
+[1.2-mac]:http://pan.baidu.com/s/1sj0rdF3
+[1.2-linux]:http://pan.baidu.com/s/1dD0F5b7
+
+[1.2-rc3-win]:http://pan.baidu.com/s/1mgrDRvU
+[1.2-rc3-mac]:http://pan.baidu.com/s/1mgMfXuK
+[1.2-rc3-linux]:http://pan.baidu.com/s/1ntuZ61V
+
+[1.2-rc2-win]:http://pan.baidu.com/s/1wHTMm
+[1.2-rc2-mac]:http://pan.baidu.com/s/1dDiyDe5
+[1.2-rc2-linux]:http://pan.baidu.com/s/1i3CcG7N
+
+[1.2-rc-win]:http://pan.baidu.com/s/1eQdCBC2
+[1.2-rc-mac]:http://pan.baidu.com/s/1dDztuMH
+[1.2-rc-linux]:http://pan.baidu.com/s/1nt20Pvj
 
 [1.2-beta3-win]:http://pan.baidu.com/s/1i3gT9Rn
 [1.2-beta3-mac]:http://pan.baidu.com/s/1eQnLwhO
@@ -280,6 +315,7 @@ AndroidDevTools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.2 | [installer_r24.2-windows.exe][installer_r24.2-win] [android-sdk_r24.2-windows.zip][android-sdk_r24.2-win] | [android-sdk_r24.2-macosx.zip][android-sdk_r24.2-mac] | [android-sdk_r24.2-linux.tgz][android-sdk_r24.2-linux] |
 | sdk-tools-r24.1.2 | [installer_r24.1.2-windows.exe][installer_r24.1.2-win] [android-sdk_r24.1.2-windows.zip][android-sdk_r24.1.2-win] | [android-sdk_r24.1.2-macosx.zip][android-sdk_r24.1.2-mac] | [android-sdk_r24.1.2-linux.tgz][android-sdk_r24.1.2-linux] |
 | sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
 | sdk-tools-r24.0.1 | [installer_r24.0.1-windows.exe][installer_r24.0.1-win] [android-sdk_r24.0.1-windows.zip][android-sdk_r24.0.1-win] | [android-sdk_r24.0.1-macosx.zip][android-sdk_r24.0.1-mac] | [android-sdk_r24.0.1-linux.tgz][android-sdk_r24.0.1-linux] |
@@ -289,6 +325,13 @@ AndroidDevTools
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.2-win]:http://pan.baidu.com/s/1ntkRd6D
+[android-sdk_r24.2-win]:http://pan.baidu.com/s/1mgAB66s
+
+[android-sdk_r24.2-mac]:http://pan.baidu.com/s/1eQnhj9o
+
+[android-sdk_r24.2-linux]:http://pan.baidu.com/s/1dDhd76h
 
 [installer_r24.1.2-win]:http://pan.baidu.com/s/1pJwVClt
 [android-sdk_r24.1.2-win]:http://pan.baidu.com/s/1ntOefLf
@@ -713,6 +756,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------:|:----------:|
+| ndk-r10e | [32位][r10e-win-32] [64位][r10e-win-64] | [64位][r10d-mac-64] | [32位][r10e-linux-32] [64位][r10e-linux-64]  |
 | ndk-r10d | [32位][r10d-win-32] [64位][r10d-win-64] | [32位][r10d-mac-32] [64位][r10d-mac-64] | [32位][r10d-linux-32] [64位][r10d-linux-64]  |
 | ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
 | ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
@@ -724,6 +768,15 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+
+[r10e-win-32]:http://pan.baidu.com/s/1jG7Yacm
+[r10e-win-64]:http://pan.baidu.com/s/1jG5WjL8
+
+[r10e-mac-64]:http://pan.baidu.com/s/1hqKTsws
+
+[r10e-linux-32]:http://pan.baidu.com/s/1kTILsoR
+[r10e-linux-64]:http://pan.baidu.com/s/1mg5Sadq
 
 
 [r10d-win-32]:http://pan.baidu.com/s/1yc9BK
@@ -851,6 +904,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号   |
 |:----------|
+| [gradle-2.4-all.zip](http://pan.baidu.com/s/1c0dcgfe) |
+| [gradle-2.3-all.zip](http://pan.baidu.com/s/1dDEnQr3) |
 | [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
 | [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
 | [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
@@ -1027,7 +1082,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android Resource Resizer Plugin             | [下载][Android Resource Resizer]                  |                 |
 | Gradle Dependencies Helper Plugin           | [下载][GradleDependenciesHelper]                  |                 |
 | Android Parcelable code generation Plugin   | [下载][Parcelableboilerplatecodegen]              |                 |
-| Android Holo Colors IDEA Plugin             | [下载][Droidinspector]                            |                 |
+| Android Holo Colors IDEA Plugin             | [下载][Android Holo Colors IDEA Plugin]                            |                 |
 | Android Toolbox Plugin                      | [下载][Android Toolbox Plugin]                    |                 |
 | Android Gradle Sign Plugin                  | [下载][AndroidGradleSignPlugin]                   |                 |
 | Android Permissions Usage Plugin            | [下载][AndroidPermissionsUsage]                   |                 |
@@ -1678,9 +1733,11 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
 | GifCam           |                  | [下载][GifCam]              |                 |
+| Android Tool     |                  | [下载][androidtool-mac]     |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
 [GifCam]:http://blog.bahraniapps.com/gifcam/
+[androidtool-mac]:https://github.com/mortenjust/androidtool-mac
 
 ## UI Programming Language
 
