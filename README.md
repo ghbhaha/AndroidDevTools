@@ -55,8 +55,11 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.3 Beta | [下载][1.3-beta-win] | [下载][1.3-beta-mac] | [下载][1.3-beta-linux] |
+|  1.3 Preview 3 | [下载][1.3-p3-win] | [下载][1.3-p3-mac] | [下载][1.3-p3-linux] |
 |  1.3 Preview 2 | [下载][1.3-p2-win] | [下载][1.3-p2-mac] | [下载][1.3-p2-linux] |
 |  1.3 Preview 1 | [下载][1.3-p1-win] | [下载][1.3-p1-mac] | [下载][1.3-p1-linux] |
+|  1.2.2 | [下载][1.2.2-win] | [下载][1.2.2-mac] | [下载][1.2.2-linux] |
 |  1.2.1.1 | [下载][1.2.1.1-win] | [下载][1.2.1.1-mac] | [下载][1.2.1.1-linux] |
 |  1.2 正式版 | [下载][1.2-win] | [下载][1.2-mac] | [下载][1.2-linux] |
 |  1.2 RC3 | [下载][1.2-rc3-win] | [下载][1.2-rc3-mac] | [下载][1.2-rc3-linux] |
@@ -107,6 +110,14 @@ AndroidDevTools
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
 
+[1.3-beta-win]:http://pan.baidu.com/s/1jGy6f5s
+[1.3-beta-mac]:http://pan.baidu.com/s/1hqvm0fi
+[1.3-beta-linux]:http://pan.baidu.com/s/1ntqY2At
+
+[1.3-p3-win]:http://pan.baidu.com/s/1ntvHs2d
+[1.3-p3-mac]:http://pan.baidu.com/s/1pJJZMzT
+[1.3-p3-linux]:http://pan.baidu.com/s/1hkFLW
+
 [1.3-p2-win]:http://pan.baidu.com/s/1hq5uz20
 [1.3-p2-mac]:http://pan.baidu.com/s/1i3nb1Vv
 [1.3-p2-linux]:http://pan.baidu.com/s/1nt5kqQd
@@ -114,6 +125,10 @@ AndroidDevTools
 [1.3-p1-win]:http://pan.baidu.com/s/1o6OKUIQ
 [1.3-p1-mac]:http://pan.baidu.com/s/1mgIGdio
 [1.3-p1-linux]:http://pan.baidu.com/s/1bn548rH
+
+[1.2.2-win]:http://pan.baidu.com/s/1i32AQUD
+[1.2.2-mac]:http://pan.baidu.com/s/1sj7enLj
+[1.2.2-linux]:http://pan.baidu.com/s/1i3xRdJ3
 
 [1.2.1.1-win]:http://pan.baidu.com/s/1sjDiYIT
 [1.2.1.1-mac]:http://pan.baidu.com/s/1kTDvwBd
@@ -315,6 +330,7 @@ AndroidDevTools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.3.2 | [installer_r24.3.2-windows.exe][installer_r24.3.2-win] [android-sdk_r24.3.2-windows.zip][android-sdk_r24.3.2-win] | [android-sdk_r24.3.2-macosx.zip][android-sdk_r24.3.2-mac] | [android-sdk_r24.3.2-linux.tgz][android-sdk_r24.3.2-linux] |
 | sdk-tools-r24.2 | [installer_r24.2-windows.exe][installer_r24.2-win] [android-sdk_r24.2-windows.zip][android-sdk_r24.2-win] | [android-sdk_r24.2-macosx.zip][android-sdk_r24.2-mac] | [android-sdk_r24.2-linux.tgz][android-sdk_r24.2-linux] |
 | sdk-tools-r24.1.2 | [installer_r24.1.2-windows.exe][installer_r24.1.2-win] [android-sdk_r24.1.2-windows.zip][android-sdk_r24.1.2-win] | [android-sdk_r24.1.2-macosx.zip][android-sdk_r24.1.2-mac] | [android-sdk_r24.1.2-linux.tgz][android-sdk_r24.1.2-linux] |
 | sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
@@ -325,6 +341,13 @@ AndroidDevTools
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.3.2-win]:http://pan.baidu.com/s/1kToZVL1
+[android-sdk_r24.3.2-win]:http://pan.baidu.com/s/1i3eUFDb
+
+[android-sdk_r24.3.2-mac]:http://pan.baidu.com/s/1gdeYIVx
+
+[android-sdk_r24.3.2-linux]:http://pan.baidu.com/s/1eQpQgXO
 
 [installer_r24.2-win]:http://pan.baidu.com/s/1ntkRd6D
 [android-sdk_r24.2-win]:http://pan.baidu.com/s/1mgAB66s
@@ -952,6 +975,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 名称                           |      简介        |         下载地址                  |    使用教程      |
 |:------------------------------|:------------------------------|:--------------------------------:|:---------------:|
+| Enjarify   					|Enjarify 是一个用 Python 写的， Google 官方开源的可以将 Dalvik 字节码转换为 Java 字节码的工具。| [下载][Enjarify]                  |                
 | JEB Android Decompiler   		|                   | [下载][JEB]                       |                |
 | Virtuous Ten Studio     		|                   | [下载][Virtuous Ten Studio]       |                |
 | Apk文件修改工具Root Tools 		|                   | [下载][apk文件修改工具Root Tools]   |                |
@@ -992,10 +1016,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
 [Android-Killer-pd521]:http://www.pd521.com/thread-136-1-1.html
 [Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
+[Enjarify]:https://github.com/google/enjarify
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
 [Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
+
 
 #### 安全工具
 
@@ -1106,6 +1132,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 | Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
 | Color themes for IntelliJ IDEA       	   | [下载][android-drawable-importer-intellij-plugin] |                 |
+| GsonFormat       	   | [下载][GsonFormat] |                 |
+| ormlite-android-gradle-plugin       	   | [下载][ormlite-android-gradle-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -1135,6 +1163,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 [android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
 [Color-themes-for-IntelliJ-IDEA]:http://www.ideacolorthemes.org/home/
+[GsonFormat]:https://github.com/zzz40500/GsonFormat
+[ormlite-android-gradle-plugin]:https://github.com/stephanenicolas/ormlite-android-gradle-plugin
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
